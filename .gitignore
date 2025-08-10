@@ -1,0 +1,20 @@
+# ✅ Ignore the virtual environment
+venv/
+
+# ✅ Ignore the .env file (contains secrets)
+.env
+
+# ✅ Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ✅ Ignore macOS + VSCode settings (optional)
+.DS_Store
+.vscode/
+
+# ✅ Allow required files (optional — helps override wildcard rules if needed)
+!requirements.txt
+!Procfile
+!*.py
